@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.login-box{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/login_bgx.gif');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column 
+}
+.login-input{
+  background-image: url('../img/login_m_bg.png');
+  width: 403px;
+  height: 302px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  width: 300px;
+}
