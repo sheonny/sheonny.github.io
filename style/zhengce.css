@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.zhengce .zhengceTitle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zhengceTitle img{
+  width: 25px;
+  height: 10px;
+}
+.zhengceTitle span{
+  font-size:22px;
+  font-family:PingFangSC-Semibold,PingFang SC;
+  font-weight:600;
+  color:rgba(66,71,84,1);
+  line-height:30px;
+  margin: 0 10px;
+}
+.zhengce .zhengcebanner{
+  width:100%;
+  height:80px;
+  background:linear-gradient(250deg,rgba(255,210,132,1) 0%,rgba(255,148,41,1) 100%,rgba(255,142,29,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+}
+.zhengcebanner span{
+  font-size:18px;
+  font-family:PingFangSC-Semibold,PingFang SC;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+  line-height:25px;
+  margin-left: 20px;
+}
+.zhengcebanner img{
+  width: 130px;
+  height: 79px;
+}
+.zhengce .zhengceContent{
+  /* width: 100%; */
+  height: 100%;
+  background:#FFF9F4;
+  border-radius:10px;
+  padding: 0 10px;
+  padding-bottom: 20px;
+}
+.zhengceContent p{
+  font-size:15px;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(139,87,42,1);
+  line-height:26px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+.zhengceContent .imgBox{
+  width: 303px;
+  /* height: 289px; */
+  margin: 0 auto;
+}
+.zhengceContent img{
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.zhengceContent span{
+  color: #FF691F;
+}
